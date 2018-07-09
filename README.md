@@ -100,3 +100,7 @@ Result:
 ## License
 
 This package is licensed under GPLv3.
+
+## Download statistics
+
+[![statistics](https://packagist-statistics.dura.hu/balping/json-raw-encoder/10days.svg)](https://packagist-statistics.dura.hu/balping/json-raw-encoder/10days.svg)
