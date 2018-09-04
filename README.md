@@ -24,7 +24,7 @@ Suppose you need to pass a callback to a JSON object.
     ];
 ?>
 
-<scrtipt>
+<script>
     let bar = <?php echo json_encode($array); ?>;
     bar.callback('hello'); //error
 </script>
@@ -52,7 +52,7 @@ To get around this problem, use `Raw` objects provided by this package:
     ];
 ?>
 
-<scrtipt>
+<script>
     let bar = <?php echo Encoder::encode($array); ?>;
     bar.callback('hello'); //prints hello
 </script>
