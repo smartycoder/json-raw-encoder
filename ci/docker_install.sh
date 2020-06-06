@@ -11,6 +11,7 @@ apt-get install git -yqq
 apt-get install wget -yqq
 
 pecl install xdebug && docker-php-ext-enable xdebug
+docker-php-ext-install zip && docker-php-ext-enable zip
 
 # Install phpunit, the tool that we will use for testing
 curl --location --output /usr/local/bin/phpunit https://phar.phpunit.de/phpunit.phar
